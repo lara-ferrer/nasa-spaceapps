@@ -6,6 +6,7 @@ import SolarRadiation from "../components/SolarRadiation";
 import Benefits from "../components/Benefits";
 import AppInfo from "../components/AppInfo";
 import Footer from "../components/Footer";
+import ButtonUp from "../components/ButtonUp";
 
 const IndexPage = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage = () => {
       <Benefits />
       <AppInfo />
       <Footer />
+      <ButtonUp />
     </div>
   )
 }
