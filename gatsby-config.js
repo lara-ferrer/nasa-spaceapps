@@ -23,7 +23,7 @@ module.exports = {
       options: {
         fonts: [
           `oswald`,
-          `poppins\:900,800,500,400`,
+          `poppins\:900,800,700,600,500,400`,
           `comfortaa\:800,400`,
         ],
         display: 'swap'
