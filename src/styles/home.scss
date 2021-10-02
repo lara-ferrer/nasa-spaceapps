@@ -1,0 +1,48 @@
+/* GENERAL STYLES */
+body {
+    background-color: #FFFEE5;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    transition: 0.4s;
+    &:hover {
+        transition: 0.4s;
+    }
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* GRID */
+.grid-x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+}
+
+.grid-30-70 {
+    display: grid;
+    grid-template-columns: 1fr 70%;
+}
+
+/* ATOMS */
+.a-button {
+    border-radius: 30px;
+    background-color: #20B842;
+    padding: 1em 2em;
+    color: #fff;
+    transition: 0.4s;
+    &:hover {
+        cursor: pointer;
+        background-color: #228c39;
+        transition: 0.4s;
+    }
+}

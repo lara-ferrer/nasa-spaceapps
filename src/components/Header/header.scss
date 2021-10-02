@@ -1,0 +1,16 @@
+.m-header {
+    padding: 2em 0;
+    .a-logo {
+        width: 100%;
+    }
+
+    .a-menu__item {
+        list-style: none;
+        display: inline-block;
+        padding-left: 2em;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        letter-spacing: 0.1em;
+    }
+}

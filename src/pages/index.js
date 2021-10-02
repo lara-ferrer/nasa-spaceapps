@@ -1,16 +1,15 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import "../styles/home.scss";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-      <StaticImage
-        alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
-        src="../images/clifford.jpg"
-      />
-    </Layout>
+    <div>
+      <title>Planting Tomatoes</title>
+      <Header />
+      <Hero />
+    </div>
   )
 }
 
