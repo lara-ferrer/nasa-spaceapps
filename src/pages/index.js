@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import SolarRadiation from "../components/SolarRadiation";
 import Benefits from "../components/Benefits";
 import AppInfo from "../components/AppInfo";
+import Footer from "../components/Footer";
 
 const IndexPage = () => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <SolarRadiation />
       <Benefits />
       <AppInfo />
+      <Footer />
     </div>
   )
 }
