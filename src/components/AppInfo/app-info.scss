@@ -1,0 +1,21 @@
+.o-app-info {
+    padding: 10em 0;
+    .a-app__title {
+        text-align: center;
+    }
+
+    .m-map-section {
+        padding: 2em 0 5em 0;
+        .a-map {
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+    .a-button {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        width: 30%;
+    }
+}

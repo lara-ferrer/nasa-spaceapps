@@ -53,11 +53,17 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2em;
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .grid-30-70 {
     display: grid;
     grid-template-columns: 1fr 70%;
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* ATOMS */
