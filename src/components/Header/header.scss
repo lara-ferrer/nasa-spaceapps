@@ -12,5 +12,11 @@
         text-transform: uppercase;
         font-size: 0.9em;
         letter-spacing: 0.1em;
+        a {
+            cursor: pointer;
+            &:hover {
+                color: #E3DB08;
+            }
+        }
     }
 }
