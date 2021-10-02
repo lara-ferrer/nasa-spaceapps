@@ -5,7 +5,7 @@ import radiation from "../../images/solar-radiation.svg";
 
 export default function SolarRadiation() {
     return (
-        <div className="grid-x2 o-radiation">
+        <div className="grid-x2 o-radiation" id="solar-radiation">
             <div className="a-radiation-info">
                 <img src={circleBG} className="a-radiation__image" />
                 <div className="grid-x2">
