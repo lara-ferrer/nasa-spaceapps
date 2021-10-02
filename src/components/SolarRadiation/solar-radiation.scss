@@ -1,0 +1,36 @@
+.o-radiation {
+
+    .a-farmer-image {
+        position: relative;
+        bottom: 8em;
+        left: 5em;
+        width: 120%;
+    }
+
+    .a-radiation__title {
+        position: relative;
+        bottom: 4em;
+        text-align: right;
+        padding-right: 1em;
+        width: 90%;
+    }
+
+    .a-radiation-info {
+        padding: 2em;
+
+        .a-radiation__image {
+            position: absolute;
+            left: 0em;
+            width: 50%;
+            top: 30em;
+            z-index: -1;
+        }
+
+        .m-card {
+            background-color: #fff;
+            border-radius: 50px;
+            padding: 2em;
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.099);
+        }
+    }
+}

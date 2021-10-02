@@ -16,6 +16,33 @@ a {
     }
 }
 
+h1, h2, h3, h4 {
+    font-family: "Comfortaa", sans-serif;
+    letter-spacing: 8px;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 62px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+strong {
+    font-weight: 800;
+}
+
+p {
+    font-weight: 400;
+}
+
+.p-top {
+    padding-top: 2em;
+}
+
 .container {
     width: 90%;
     margin: auto;
