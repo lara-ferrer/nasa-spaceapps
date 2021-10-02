@@ -3,6 +3,7 @@ module.exports = {
     title: "My First Gatsby Site",
   },
   plugins: [
+    "gatsby-plugin-smoothscroll",
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
