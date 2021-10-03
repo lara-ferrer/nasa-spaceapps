@@ -26,7 +26,7 @@ export default function AppInfo() {
                     </div>
                 </div>
             </div>
-            <a className="a-button" href="https://www.figma.com/proto/I1VlkEpCCYsqbjJ9qWzZXk/Plant-a-Tomato?page-id=0%3A1&node-id=2%3A3&starting-point-node-id=2%3A3&scaling=scale-down">Discover solar radiation in real time</a>
+            <a className="a-button" href="https://www.figma.com/proto/I1VlkEpCCYsqbjJ9qWzZXk/Plant-a-Tomato?page-id=0%3A1&node-id=2%3A3&starting-point-node-id=2%3A3&scaling=scale-down" target="_blank">Discover solar radiation in real time</a>
         </div>
     )
 }
