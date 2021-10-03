@@ -15,7 +15,7 @@ export default function Header() {
                     <a onClick={() => scrollTo('#benefits')}>Discover radiation levels</a>
                 </li>
                 <li className="a-menu__item">
-                    <a className="a-button">Get our app</a>
+                    <a className="a-button" href="https://www.figma.com/proto/I1VlkEpCCYsqbjJ9qWzZXk/Plant-a-Tomato?page-id=0%3A1&node-id=2%3A3&starting-point-node-id=2%3A3&scaling=scale-down">Get our app</a>
                 </li>
             </ul>
         </div>
